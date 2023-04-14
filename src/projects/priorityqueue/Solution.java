@@ -3,6 +3,7 @@ package projects.priorityqueue;
 import java.io.*;
 import java.util.*;
 import java.util.stream.Collectors;
+
 import static java.util.stream.Collectors.joining;
 
 public class Solution {
@@ -32,10 +33,8 @@ public class Solution {
             );
 
         }
-
         bufferedReader.close();
         bufferedWriter.close();
-
     }
 }
 
@@ -51,13 +50,15 @@ class Student {
         this.cgpa = cgpa;
     }
 
-    public int getID(){
+    public int getID() {
         return this.id;
     }
-    public String getName(){
+
+    public String getName() {
         return this.name;
     }
-    public double getCGPA(){
+
+    public double getCGPA() {
         return this.cgpa;
     }
 }

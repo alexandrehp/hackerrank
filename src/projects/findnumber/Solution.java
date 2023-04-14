@@ -1,4 +1,4 @@
-package projects;
+package projects.findnumber;
 
 import java.io.*;
 import java.math.*;
@@ -36,7 +36,7 @@ class ResulFind {
     }
 }
 
-public class SolutionFindNumber {
+public class Solution {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
